@@ -1,4 +1,4 @@
-local function randomString(length)
+function randomString(length)
     local chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
     local str = ''
     for i = 1, length do

@@ -1,12 +1,15 @@
 local synversion = "10.02.25"
 -- SaladAPI ENV Enhancer | thanks to discord.gg/getsalad
+
+function identifyexecutor() return 'KRNL', synversion end
+
 getgenv().IS_KRNL_LOADED = false
 local oldr = request 
 getgenv().request = function(options)
 	if options.Headers then
-		options.Headers["User-Agent"] = "KRNL/RobloxApp" .. synversion
+		options.Headers["User-Agent"] = "KRNL/RobloxApp/" .. synversion
 	else
-		options.Headers = {["User-Agent"] = "KRNL/RobloxApp" .. synversion}
+		options.Headers = {["User-Agent"] = "KRNL/RobloxApp/" .. synversion}
 	end
 	local response = oldr(options)
 	return response

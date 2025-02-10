@@ -1,6 +1,6 @@
 local synversion = "10.02.25"
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/kernel-ui/refs/heads/main/env.lua"))() -- env
+-- makesit fucked ->> loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/kernel-ui/refs/heads/main/env.lua"))() -- env
 
 -- SaladAPI ENV Enhancer | thanks to discord.gg/getsalad
 

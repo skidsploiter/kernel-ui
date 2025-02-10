@@ -1,5 +1,5 @@
 local synversion = "10.02.25"
--- open source because lol 
+-- SaladAPI ENV Enhancer | thanks to discord.gg/getsalad
 getgenv().IS_KRNL_LOADED = false
 local oldr = request 
 getgenv().request = function(options)

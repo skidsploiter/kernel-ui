@@ -4,6 +4,8 @@ local synversion = "10.02.25"
 
 -- SaladAPI ENV Enhancer | thanks to discord.gg/getsalad
 
+local function iy() loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source"))() end
+
 function identifyexecutor() return 'KRNL', synversion end
 
 getgenv().IS_KRNL_LOADED = false

@@ -1,6 +1,7 @@
 local synversion = "10.02.25"
 function getexecutorname() return "KRNL" end
 function getthreadidentity() return 3 end
+function reload() loadstring(game:HttpGet("https://github.com/skidsploiter/kernel-ui/blob/main/main.lua?raw=true"))() end
 
 -- makesit fucked ->> loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/kernel-ui/refs/heads/main/env.lua"))() -- env
 -- SaladAPI ENV Enhancer | thanks to discord.gg/getsalad

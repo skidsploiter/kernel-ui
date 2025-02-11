@@ -1,4 +1,5 @@
 local synversion = "10.02.25"
+function getexecutorname() return "KRNL" end
 
 -- makesit fucked ->> loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/kernel-ui/refs/heads/main/env.lua"))() -- env
 
@@ -1803,7 +1804,7 @@ G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["1e"]["TextSize"] = 15;
 G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1e"]["Size"] = UDim2.new(0, 646, 0, 27);
-G2L["1e"]["Text"] = "Synapse X - "..synversion;
+G2L["1e"]["Text"] = getexecutorname() .. " - "..synversion;
 G2L["1e"]["Name"] = [[TitleSynapse]];
 G2L["1e"]["BackgroundTransparency"] = 1;
 
@@ -2769,7 +2770,7 @@ G2L["7b"] = Instance.new("ImageLabel", G2L["72"]);
 G2L["7b"]["ZIndex"] = 6;
 G2L["7b"]["BorderSizePixel"] = 0;
 G2L["7b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7b"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
+G2L["7b"]["Image"] = [[http://www.roblox.com/asset/?id=11671355800]];
 G2L["7b"]["Size"] = UDim2.new(0, 23, 0, 26);
 G2L["7b"]["Name"] = [[Icon]];
 G2L["7b"]["BackgroundTransparency"] = 1;
@@ -2985,7 +2986,7 @@ G2L["90"]["TextSize"] = 15;
 G2L["90"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["90"]["Size"] = UDim2.new(0, 322, 0, 30);
 G2L["90"]["Active"] = true;
-G2L["90"]["Text"] = [[Synapse X - Open FIle]];
+G2L["90"]["Text"] = [[Synapse X - Open File]];
 G2L["90"]["Name"] = [[Title]];
 G2L["90"]["BackgroundTransparency"] = 1;
 
@@ -4556,7 +4557,7 @@ local function C_49()
 	end)
 	buttons.Execute.MouseButton1Up:Connect(function()
 		if not injected then
-			title.Text = "Synapse X - "..synversion.." (not injected! press attach)"
+			title.Text = getexecutorname() .. " - "..synversion.." (not injected! press attach)"
 		elseif injected == true then
 
 			local textbox = GetTextbox()
@@ -4566,22 +4567,22 @@ local function C_49()
 	end)
 	buttons.Attach.MouseButton1Up:Connect(function()
 		if not injected then
-			title.Text = "Synapse X - "..synversion.." (checking...)"
+			title.Text = getexecutorname() .. " - "..synversion.." (checking...)"
 			task.wait(0.8)
-			title.Text = "Synapse X - "..synversion.." (injecting...)"
+			title.Text = getexecutorname() .. " - "..synversion.." (injecting...)"
 			task.wait(2.3)
-			title.Text = "Synapse X - "..synversion.." (checking whitelist...)"
+			title.Text = getexecutorname() .. " - "..synversion.." (checking whitelist...)"
 			task.wait(1.6)
-			title.Text = "Synapse X - "..synversion.." (scanning...)"
+			title.Text = getexecutorname() .. " - "..synversion.." (scanning...)"
 			task.wait(1.3)
-			title.Text = "Synapse X - "..synversion.." (ready!)"
+			title.Text = getexecutorname() .. " - "..synversion.." (ready!)"
 			injected = true
 			task.wait(1)
-			title.Text = "Synapse X - "..synversion
+			title.Text = getexecutorname() .. " - "..synversion
 		else
-			title.Text = "Synapse X - "..synversion.." (already injected!)"
+			title.Text = getexecutorname() .. " - "..synversion.." (already injected!)"
 			task.wait(1)
-			title.Text = "Synapse X - "..synversion
+			title.Text = getexecutorname() .. " - "..synversion
 		end
 	end)
 
@@ -4821,9 +4822,9 @@ local function C_92()
 			script.Parent.scriptname.Text = ''
 			module:AddTab(script.Parent.scriptname.Text, readfile(a))
 		else
-			script.Parent.Title.Text = "Synapse X - Open File (File not found!)"
+			script.Parent.Title.Text = getexecutorname() .. " - Open File (File not found!)"
 			task.wait(1)
-			script.Parent.Title.Text = "Synapse X - Open File"
+			script.Parent.Title.Text = getexecutorname() .. " - Open File"
 		end
 	end)
 

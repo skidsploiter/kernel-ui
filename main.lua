@@ -2,10 +2,9 @@ local synversion = "10.02.25"
 function getexecutorname() return "KRNL" end
 
 -- makesit fucked ->> loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/kernel-ui/refs/heads/main/env.lua"))() -- env
-
 -- SaladAPI ENV Enhancer | thanks to discord.gg/getsalad
 
-local function iy() loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source"))() end
+function iy() loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source"))() end
 
 function identifyexecutor() return 'KRNL', synversion end
 
@@ -4968,5 +4967,14 @@ local function C_93()
    
 end;
 task.spawn(C_93);
+
+function loadenv() loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/kernel-ui/refs/heads/main/env.lua"))() end
+
+function unc() 
+	loadenv()
+	loadstring(game:HttpGet("https://github.com/unified-naming-convention/NamingStandard/blob/main/UNCCheckEnv.lua?raw=true"))()
+end
+
+loadenv()
 
 return G2L["1"], require;

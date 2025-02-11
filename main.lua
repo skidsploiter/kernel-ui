@@ -1,7 +1,5 @@
 local synversion = "10.02.25"
 function getexecutorname() return "KRNL" end
-function getthreadidentity() return 3 end
-function reload() loadstring(game:HttpGet("https://github.com/skidsploiter/kernel-ui/blob/main/main.lua?raw=true"))() end
 
 -- makesit fucked ->> loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/kernel-ui/refs/heads/main/env.lua"))() -- env
 -- SaladAPI ENV Enhancer | thanks to discord.gg/getsalad
@@ -1535,7 +1533,7 @@ G2L["2"]["Position"] = UDim2.new(0.7019911956787109, 0, 0.7092568278312683, 0);
 G2L["3"] = Instance.new("ImageLabel", G2L["2"]);
 G2L["3"]["BorderSizePixel"] = 0;
 G2L["3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
+G2L["3"]["Image"] = [[http://www.roblox.com/asset/?id=11671355800]];
 G2L["3"]["Size"] = UDim2.new(0, 23, 0, 26);
 G2L["3"]["Name"] = [[ ]];
 G2L["3"]["BackgroundTransparency"] = 1;
@@ -1564,7 +1562,7 @@ G2L["6"]["Name"] = [[Main]];
 G2L["7"] = Instance.new("ImageLabel", G2L["6"]);
 G2L["7"]["BorderSizePixel"] = 0;
 G2L["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
+G2L["7"]["Image"] = [[http://www.roblox.com/asset/?id=11671355800]];
 G2L["7"]["Size"] = UDim2.new(0, 23, 0, 26);
 G2L["7"]["Name"] = [[Icon]];
 G2L["7"]["BackgroundTransparency"] = 1;
@@ -2238,7 +2236,7 @@ G2L["4d"] = Instance.new("ImageLabel", G2L["4a"]);
 G2L["4d"]["ZIndex"] = 11;
 G2L["4d"]["BorderSizePixel"] = 0;
 G2L["4d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4d"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
+G2L["4d"]["Image"] = [[http://www.roblox.com/asset/?id=11671355800]];
 G2L["4d"]["Size"] = UDim2.new(0, 48, 0, 23);
 G2L["4d"]["Name"] = [[Icon]];
 G2L["4d"]["BackgroundTransparency"] = 1;
@@ -2365,7 +2363,7 @@ G2L["58"]["Position"] = UDim2.new(0.4107648730278015, 0, 0.800000011920929, 0);
 G2L["59"] = Instance.new("ImageLabel", G2L["52"]);
 G2L["59"]["BorderSizePixel"] = 0;
 G2L["59"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["59"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
+G2L["59"]["Image"] = [[http://www.roblox.com/asset/?id=11671355800]];
 G2L["59"]["Size"] = UDim2.new(0, 23, 0, 26);
 G2L["59"]["Name"] = [[Icon]];
 G2L["59"]["BackgroundTransparency"] = 1;
@@ -2565,7 +2563,7 @@ G2L["68"]["Name"] = [[RemoteSpy]];
 G2L["69"] = Instance.new("ImageLabel", G2L["68"]);
 G2L["69"]["BorderSizePixel"] = 0;
 G2L["69"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["69"]["Image"] = [[http://www.roblox.com/asset/?id=7370616106]];
+G2L["69"]["Image"] = [[http://www.roblox.com/asset/370616106]];
 G2L["69"]["Size"] = UDim2.new(0, 272, 0, 126);
 G2L["69"]["Name"] = [[Image]];
 G2L["69"]["BackgroundTransparency"] = 1;
@@ -2583,7 +2581,7 @@ G2L["6a"]["Name"] = [[UnnamedESP]];
 G2L["6b"] = Instance.new("ImageLabel", G2L["6a"]);
 G2L["6b"]["BorderSizePixel"] = 0;
 G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6b"]["Image"] = [[http://www.roblox.com/asset/?id=7370616607]];
+G2L["6b"]["Image"] = [[http://www.roblox.com/asset/370616607]];
 G2L["6b"]["Size"] = UDim2.new(0, 272, 0, 126);
 G2L["6b"]["Name"] = [[Image]];
 G2L["6b"]["BackgroundTransparency"] = 1;
@@ -2601,7 +2599,7 @@ G2L["6c"]["Name"] = [[ScriptDumper]];
 G2L["6d"] = Instance.new("ImageLabel", G2L["6c"]);
 G2L["6d"]["BorderSizePixel"] = 0;
 G2L["6d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6d"]["Image"] = [[http://www.roblox.com/asset/?id=7370669353]];
+G2L["6d"]["Image"] = [[http://www.roblox.com/asset/370669353]];
 G2L["6d"]["Size"] = UDim2.new(0, 272, 0, 126);
 G2L["6d"]["Name"] = [[Image]];
 G2L["6d"]["BackgroundTransparency"] = 1;
@@ -2612,7 +2610,7 @@ G2L["6e"] = Instance.new("ImageLabel", G2L["5b"]);
 G2L["6e"]["ZIndex"] = 6;
 G2L["6e"]["BorderSizePixel"] = 0;
 G2L["6e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6e"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
+G2L["6e"]["Image"] = [[http://www.roblox.com/asset/?id=11671355800]];
 G2L["6e"]["Size"] = UDim2.new(0, 23, 0, 26);
 G2L["6e"]["Name"] = [[Icon]];
 G2L["6e"]["BackgroundTransparency"] = 1;
@@ -2966,7 +2964,7 @@ G2L["8e"] = Instance.new("ImageLabel", G2L["8b"]);
 G2L["8e"]["ZIndex"] = 11;
 G2L["8e"]["BorderSizePixel"] = 0;
 G2L["8e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8e"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
+G2L["8e"]["Image"] = [[http://www.roblox.com/asset/?id=11671355800]];
 G2L["8e"]["Size"] = UDim2.new(0, 48, 0, 23);
 G2L["8e"]["Name"] = [[Icon]];
 G2L["8e"]["BackgroundTransparency"] = 1;
@@ -4972,10 +4970,15 @@ task.spawn(C_93);
 
 function loadenv() loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/kernel-ui/refs/heads/main/env.lua"))() end
 
+-- 
+
 function unc() 
 	loadenv()
 	loadstring(game:HttpGet("https://github.com/unified-naming-convention/NamingStandard/blob/main/UNCCheckEnv.lua?raw=true"))()
 end
+
+function getthreadidentity() return 3 end
+function reload() loadstring(game:HttpGet("https://github.com/skidsploiter/kernel-ui/blob/main/main.lua?raw=true"))() end
 
 loadenv()
 

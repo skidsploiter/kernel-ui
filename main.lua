@@ -1,4 +1,4 @@
-local synversion = "10.02.25"
+local synversion = "15.02.25"
 function getexecutorname() return "KRNL" end
 
 -- makesit fucked ->> loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/kernel-ui/refs/heads/main/env.lua"))() -- env

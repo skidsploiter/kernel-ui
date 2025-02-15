@@ -4625,8 +4625,8 @@ local function C_51()
 		module:AddScriptTabSave(script.Parent.scriptname.Text..".lua", module:GetActiveTextbox().Frame.Textbox.Text)
 		script.Parent.Visible = false
 		script.Parent.scriptname.Text = ''
-		makefolder("SynapseSavedScripts")
-		writefile("SynapseSavedScripts/"..script.Parent.scriptname.Text..".lua", module:GetActiveTextbox().Frame.Textbox.Text)
+		makefolder("KRNL_Saved")
+		writefile("KRNL_Saved/"..script.Parent.scriptname.Text or 'script'..".lua", module:GetActiveTextbox().Frame.Textbox.Text)
 	end)
 
 	script.Parent.Close.MouseButton1Up:Connect(function()
@@ -4800,11 +4800,11 @@ local function C_84()
 	local script = G2L["84"];
 	local module = require(script.Parent.Module)
     
-	for index, value in pairs(listfiles("SynapseSavedScripts")) do
+	for index, value in pairs(listfiles("KRNL_Saved")) do
     	print(value)
 		if isfile(value) then
 			task.wait(0.05)
-            local editedString = string.gsub(value, [[SynapseSavedScripts\]], "")
+            local editedString = string.gsub(value, [[KRNL_Saved\]], "")
 			module:AddScriptTabSave(editedString, readfile(value))
 		end
 	end

@@ -1,3 +1,19 @@
+WORKING = true -- true to enable script
+
+function killSwitch()
+    if not WORKING then
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = ">[KRNL V3]<";
+            Text = "Sorry, the exploit is killswitched. Try again later!";
+            Duration = 5;
+        })
+        return false
+    end
+    return true
+end
+
+if not killSwitch() then return end
+
 local synversion = "15.02.25"
 function getexecutorname() return "KRNL" end
 
